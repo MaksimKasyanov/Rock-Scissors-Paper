@@ -1,0 +1,33 @@
+body{
+	background-color: #181818;
+	padding: 0;
+	margin: 0;
+}
+.output{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+.input{
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+}
+.button__wrapper{
+	width: calc(100% - 20px);
+}
+.button{
+	display: block;
+	width: 100%;
+	height: 40px;
+	outline: none;
+	border: none;
+	padding: 10px;
+	margin: 10px;
+	font-size: 12px;
+	object-fit: contain;
+}
+
+.button:hover{
+	font-size: 14px;
+}
